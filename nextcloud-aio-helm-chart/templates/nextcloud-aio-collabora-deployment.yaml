@@ -47,6 +47,9 @@ spec:
             capabilities:
               add:
                 - MKNOD
+                - FOWNER
+                - CHOWN
+                - SYS_CHROOT
                 - SYS_ADMIN
               drop:
                 - NET_RAW
